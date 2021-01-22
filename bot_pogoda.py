@@ -29,7 +29,6 @@ def send_echo(message):
 
 		bot.send_message(message.chat.id, answer)
 
-	fire
 	except:
 		bot.send_message(message.chat.id, 'Такого города не существует.')
     
